@@ -19,3 +19,18 @@ Ensure you have a C compiler (like gcc) and the standard C libraries available o
 Compile the application using the following command:
 ```bash
 gcc nettchat.c -o nettchat
+
+### Running the Application
+To run the application:
+
+* Server Mode:
+./nettchat [port]         # for server
+
+* Note: If no port is specified, the server will select a random ephemeral port.
+
+* Client Mode:
+./nettchat [server IP] [server port]   # for client
+
+## Ensure to replace [server IP] and [server port] with the actual IP address and port number of the server.
+
+
